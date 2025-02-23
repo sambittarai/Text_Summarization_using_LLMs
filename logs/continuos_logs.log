@@ -1,1 +1,32 @@
 [2025-02-22 16:15:32,475: INFO: main: Logging is implemented]
+[2025-02-23 10:03:02,511: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 10:03:02,512: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 10:03:02,512: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 10:03:02,512: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/utils/common.py", line 28, in read_yaml
+    return ConfigBox(content)
+  File "box/box.py", line 259, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/main.py", line 11, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/pipeline/stage_1_data_ingestion_pipeline.py", line 11, in initiate_data_ingestion
+    config=ConfigurationManager()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/config/configuration.py", line 11, in __init__
+    self.paramss=read_yaml(params_filepath)
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/venv/lib/python3.10/site-packages/ensure/main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/utils/common.py", line 30, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-02-23 10:03:34,982: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 10:03:34,983: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 10:03:34,983: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 10:03:34,983: INFO: common: created directory at: artifacts]
+[2025-02-23 10:03:34,983: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 10:03:37,142: INFO: data_ingestion: File is downloaded]
+[2025-02-23 10:03:37,262: INFO: main: Stage Data Ingestion stage Completed]
