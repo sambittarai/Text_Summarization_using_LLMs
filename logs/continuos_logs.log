@@ -18,3 +18,580 @@
 [2025-02-23 12:49:31,250: INFO: common: created directory at: artifacts]
 [2025-02-23 12:49:31,250: INFO: common: created directory at: artifacts/model_trainer]
 [2025-02-23 12:51:15,319: INFO: main: Stage Model Trainer stage Completed]
+[2025-02-23 14:37:30,503: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 14:37:30,693: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 14:37:30,694: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:37:30,694: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:37:30,695: INFO: common: created directory at: artifacts]
+[2025-02-23 14:37:30,695: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 14:37:30,695: INFO: data_ingestion: File already exits]
+[2025-02-23 14:37:30,799: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 14:37:30,799: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 14:37:30,800: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:37:30,800: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:37:30,800: INFO: common: created directory at: artifacts]
+[2025-02-23 14:37:30,800: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 14:37:31,636: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 14:37:31,636: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 14:37:31,637: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:37:31,638: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:37:31,638: INFO: common: created directory at: artifacts]
+[2025-02-23 14:37:31,638: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 14:39:16,795: INFO: main: Stage Model Trainer stage Completed]
+[2025-02-23 14:52:05,543: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 14:52:05,730: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 14:52:05,731: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:52:05,731: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:52:05,731: INFO: common: created directory at: artifacts]
+[2025-02-23 14:52:05,731: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 14:52:05,731: INFO: data_ingestion: File already exits]
+[2025-02-23 14:52:05,833: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 14:52:05,833: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 14:52:05,834: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:52:05,834: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:52:05,834: INFO: common: created directory at: artifacts]
+[2025-02-23 14:52:05,834: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 14:52:06,679: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 14:52:06,679: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 14:52:06,680: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:52:06,681: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:52:06,681: INFO: common: created directory at: artifacts]
+[2025-02-23 14:52:06,681: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 14:55:47,658: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 14:55:47,841: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 14:55:47,842: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:55:47,843: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:55:47,843: INFO: common: created directory at: artifacts]
+[2025-02-23 14:55:47,843: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 14:55:47,843: INFO: data_ingestion: File already exits]
+[2025-02-23 14:55:47,947: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 14:55:47,948: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 14:55:47,948: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:55:47,949: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:55:47,949: INFO: common: created directory at: artifacts]
+[2025-02-23 14:55:47,949: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 14:55:48,716: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 14:55:48,716: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 14:55:48,717: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:55:48,718: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:55:48,718: INFO: common: created directory at: artifacts]
+[2025-02-23 14:55:48,718: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 14:55:52,568: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/components/model_trainer.py", line 30, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 134, in __init__
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/venv/lib/python3.10/site-packages/transformers/training_args.py", line 1650, in __post_init__
+    if self.eval_strategy == IntervalStrategy.STEPS and self.eval_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2025-02-23 14:57:07,612: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 14:57:07,795: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 14:57:07,796: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:57:07,797: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:57:07,797: INFO: common: created directory at: artifacts]
+[2025-02-23 14:57:07,797: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 14:57:07,797: INFO: data_ingestion: File already exits]
+[2025-02-23 14:57:07,902: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 14:57:07,902: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 14:57:07,903: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:57:07,903: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:57:07,903: INFO: common: created directory at: artifacts]
+[2025-02-23 14:57:07,903: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 14:57:08,632: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 14:57:08,632: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 14:57:08,633: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:57:08,634: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:57:08,634: INFO: common: created directory at: artifacts]
+[2025-02-23 14:57:08,634: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 14:58:08,426: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 14:58:08,611: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 14:58:08,612: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:58:08,612: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:58:08,613: INFO: common: created directory at: artifacts]
+[2025-02-23 14:58:08,613: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 14:58:08,613: INFO: data_ingestion: File already exits]
+[2025-02-23 14:58:08,716: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 14:58:08,716: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 14:58:08,717: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:58:08,718: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:58:08,718: INFO: common: created directory at: artifacts]
+[2025-02-23 14:58:08,718: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 14:58:09,455: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 14:58:09,455: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 14:58:09,456: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:58:09,457: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:58:09,457: INFO: common: created directory at: artifacts]
+[2025-02-23 14:58:09,457: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 14:58:40,864: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 14:58:41,050: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 14:58:41,051: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:58:41,052: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:58:41,052: INFO: common: created directory at: artifacts]
+[2025-02-23 14:58:41,052: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 14:58:41,052: INFO: data_ingestion: File already exits]
+[2025-02-23 14:58:41,156: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 14:58:41,156: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 14:58:41,157: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:58:41,158: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:58:41,158: INFO: common: created directory at: artifacts]
+[2025-02-23 14:58:41,158: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 14:58:42,062: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 14:58:42,062: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 14:58:42,063: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:58:42,064: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:58:42,064: INFO: common: created directory at: artifacts]
+[2025-02-23 14:58:42,064: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 14:58:46,146: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/components/model_trainer.py", line 30, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 134, in __init__
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/venv/lib/python3.10/site-packages/transformers/training_args.py", line 1654, in __post_init__
+    if self.save_strategy == SaveStrategy.STEPS and self.save_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2025-02-23 14:59:10,602: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 14:59:10,787: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 14:59:10,788: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:59:10,788: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:59:10,788: INFO: common: created directory at: artifacts]
+[2025-02-23 14:59:10,788: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 14:59:10,788: INFO: data_ingestion: File already exits]
+[2025-02-23 14:59:10,892: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 14:59:10,892: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 14:59:10,893: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:59:10,894: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:59:10,894: INFO: common: created directory at: artifacts]
+[2025-02-23 14:59:10,894: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 14:59:11,638: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 14:59:11,638: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 14:59:11,639: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:59:11,640: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:59:11,640: INFO: common: created directory at: artifacts]
+[2025-02-23 14:59:11,640: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 14:59:15,505: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/components/model_trainer.py", line 30, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 134, in __init__
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/venv/lib/python3.10/site-packages/transformers/training_args.py", line 1654, in __post_init__
+    if self.save_strategy == SaveStrategy.STEPS and self.save_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2025-02-23 14:59:37,485: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 14:59:37,675: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 14:59:37,676: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:59:37,676: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:59:37,676: INFO: common: created directory at: artifacts]
+[2025-02-23 14:59:37,676: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 14:59:37,676: INFO: data_ingestion: File already exits]
+[2025-02-23 14:59:37,781: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 14:59:37,781: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 14:59:37,782: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:59:37,783: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:59:37,783: INFO: common: created directory at: artifacts]
+[2025-02-23 14:59:37,783: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 14:59:38,538: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 14:59:38,538: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 14:59:38,539: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 14:59:38,540: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 14:59:38,540: INFO: common: created directory at: artifacts]
+[2025-02-23 14:59:38,540: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:00:21,737: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:00:21,924: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:00:21,925: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:00:21,926: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:00:21,926: INFO: common: created directory at: artifacts]
+[2025-02-23 15:00:21,926: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:00:21,926: INFO: data_ingestion: File already exits]
+[2025-02-23 15:00:22,029: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:00:22,029: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:00:22,030: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:00:22,031: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:00:22,031: INFO: common: created directory at: artifacts]
+[2025-02-23 15:00:22,031: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:00:22,963: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:00:22,963: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:00:22,964: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:00:22,965: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:00:22,965: INFO: common: created directory at: artifacts]
+[2025-02-23 15:00:22,965: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:00:27,516: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/components/model_trainer.py", line 30, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 134, in __init__
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/venv/lib/python3.10/site-packages/transformers/training_args.py", line 1654, in __post_init__
+    if self.save_strategy == SaveStrategy.STEPS and self.save_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2025-02-23 15:05:17,639: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:05:17,823: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:05:17,824: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:05:17,825: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:05:17,825: INFO: common: created directory at: artifacts]
+[2025-02-23 15:05:17,825: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:05:17,825: INFO: data_ingestion: File already exits]
+[2025-02-23 15:05:17,929: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:05:17,929: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:05:17,930: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:05:17,931: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:05:17,931: INFO: common: created directory at: artifacts]
+[2025-02-23 15:05:17,931: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:05:18,722: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:05:18,722: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:05:18,723: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:05:18,724: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:05:18,724: INFO: common: created directory at: artifacts]
+[2025-02-23 15:05:18,724: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:05:22,779: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/components/model_trainer.py", line 30, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 134, in __init__
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/venv/lib/python3.10/site-packages/transformers/training_args.py", line 1650, in __post_init__
+    if self.eval_strategy == IntervalStrategy.STEPS and self.eval_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2025-02-23 15:06:16,493: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:06:16,679: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:06:16,680: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:06:16,681: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:06:16,681: INFO: common: created directory at: artifacts]
+[2025-02-23 15:06:16,681: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:06:16,681: INFO: data_ingestion: File already exits]
+[2025-02-23 15:06:16,785: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:06:16,785: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:06:16,786: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:06:16,787: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:06:16,787: INFO: common: created directory at: artifacts]
+[2025-02-23 15:06:16,787: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:06:17,497: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:06:17,498: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:06:17,499: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:06:17,500: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:06:17,500: INFO: common: created directory at: artifacts]
+[2025-02-23 15:06:17,500: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:06:21,711: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/components/model_trainer.py", line 30, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 134, in __init__
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/venv/lib/python3.10/site-packages/transformers/training_args.py", line 1650, in __post_init__
+    if self.eval_strategy == IntervalStrategy.STEPS and self.eval_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2025-02-23 15:06:38,024: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:06:38,212: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:06:38,213: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:06:38,214: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:06:38,214: INFO: common: created directory at: artifacts]
+[2025-02-23 15:06:38,214: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:06:38,214: INFO: data_ingestion: File already exits]
+[2025-02-23 15:06:38,318: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:06:38,318: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:06:38,319: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:06:38,319: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:06:38,319: INFO: common: created directory at: artifacts]
+[2025-02-23 15:06:38,320: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:06:39,042: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:06:39,042: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:06:39,043: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:06:39,044: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:06:39,044: INFO: common: created directory at: artifacts]
+[2025-02-23 15:06:39,044: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:06:42,911: ERROR: main: invalid literal for int() with base 10: 'steps']
+Traceback (most recent call last):
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/components/model_trainer.py", line 34, in train
+    evaluation_strategy='steps', eval_steps=int(self.config.eval_steps), save_steps=1e6,
+ValueError: invalid literal for int() with base 10: 'steps'
+[2025-02-23 15:07:11,182: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:07:11,368: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:07:11,369: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:07:11,370: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:07:11,370: INFO: common: created directory at: artifacts]
+[2025-02-23 15:07:11,370: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:07:11,370: INFO: data_ingestion: File already exits]
+[2025-02-23 15:07:11,475: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:07:11,475: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:07:11,476: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:07:11,476: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:07:11,476: INFO: common: created directory at: artifacts]
+[2025-02-23 15:07:11,476: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:07:12,201: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:07:12,201: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:07:12,202: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:07:12,203: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:07:12,203: INFO: common: created directory at: artifacts]
+[2025-02-23 15:07:12,203: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:07:16,270: ERROR: main: could not convert string to float: 'steps']
+Traceback (most recent call last):
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/components/model_trainer.py", line 34, in train
+    evaluation_strategy='steps', eval_steps=float(self.config.eval_steps), save_steps=1e6,
+ValueError: could not convert string to float: 'steps'
+[2025-02-23 15:08:00,004: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:08:00,194: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:08:00,195: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:08:00,195: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:08:00,195: INFO: common: created directory at: artifacts]
+[2025-02-23 15:08:00,195: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:08:00,195: INFO: data_ingestion: File already exits]
+[2025-02-23 15:08:00,300: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:08:00,300: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:08:00,301: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:08:00,301: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:08:00,301: INFO: common: created directory at: artifacts]
+[2025-02-23 15:08:00,301: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:08:01,031: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:08:01,031: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:08:01,034: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:08:01,035: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:08:01,035: INFO: common: created directory at: artifacts]
+[2025-02-23 15:08:01,036: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:08:04,832: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/components/model_trainer.py", line 32, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 134, in __init__
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/venv/lib/python3.10/site-packages/transformers/training_args.py", line 1650, in __post_init__
+    if self.eval_strategy == IntervalStrategy.STEPS and self.eval_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2025-02-23 15:09:49,178: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:09:49,363: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:09:49,364: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:09:49,364: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:09:49,364: INFO: common: created directory at: artifacts]
+[2025-02-23 15:09:49,365: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:09:49,365: INFO: data_ingestion: File already exits]
+[2025-02-23 15:09:49,470: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:09:49,470: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:09:49,471: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:09:49,471: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:09:49,471: INFO: common: created directory at: artifacts]
+[2025-02-23 15:09:49,471: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:09:50,197: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:09:50,197: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:09:50,198: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:09:50,199: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:09:50,199: INFO: common: created directory at: artifacts]
+[2025-02-23 15:09:50,199: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:10:50,633: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:10:50,818: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:10:50,819: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:10:50,820: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:10:50,820: INFO: common: created directory at: artifacts]
+[2025-02-23 15:10:50,820: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:10:50,820: INFO: data_ingestion: File already exits]
+[2025-02-23 15:10:50,924: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:10:50,924: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:10:50,925: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:10:50,925: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:10:50,925: INFO: common: created directory at: artifacts]
+[2025-02-23 15:10:50,926: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:10:51,702: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:10:51,702: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:10:51,703: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:10:51,704: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:10:51,704: INFO: common: created directory at: artifacts]
+[2025-02-23 15:10:51,704: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:10:55,547: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/components/model_trainer.py", line 32, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 134, in __init__
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/venv/lib/python3.10/site-packages/transformers/training_args.py", line 1654, in __post_init__
+    if self.save_strategy == SaveStrategy.STEPS and self.save_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2025-02-23 15:11:28,470: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:11:28,658: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:11:28,659: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:11:28,660: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:11:28,660: INFO: common: created directory at: artifacts]
+[2025-02-23 15:11:28,660: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:11:28,660: INFO: data_ingestion: File already exits]
+[2025-02-23 15:11:28,763: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:11:28,763: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:11:28,764: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:11:28,764: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:11:28,764: INFO: common: created directory at: artifacts]
+[2025-02-23 15:11:28,764: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:11:29,482: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:11:29,482: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:11:29,483: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:11:29,484: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:11:29,484: INFO: common: created directory at: artifacts]
+[2025-02-23 15:11:29,484: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:11:33,228: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/components/model_trainer.py", line 32, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 134, in __init__
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/venv/lib/python3.10/site-packages/transformers/training_args.py", line 1654, in __post_init__
+    if self.save_strategy == SaveStrategy.STEPS and self.save_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2025-02-23 15:12:05,863: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:12:06,048: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:12:06,049: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:12:06,050: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:12:06,050: INFO: common: created directory at: artifacts]
+[2025-02-23 15:12:06,050: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:12:06,050: INFO: data_ingestion: File already exits]
+[2025-02-23 15:12:06,154: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:12:06,155: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:12:06,155: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:12:06,156: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:12:06,156: INFO: common: created directory at: artifacts]
+[2025-02-23 15:12:06,156: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:12:06,900: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:12:06,900: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:12:06,901: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:12:06,902: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:12:06,902: INFO: common: created directory at: artifacts]
+[2025-02-23 15:12:06,902: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:12:10,879: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/src/textSummarizer/components/model_trainer.py", line 33, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 134, in __init__
+  File "/home/sambit/Sambit/UU/MLOps/Module_21_HuggingFace_Transformers/Text_Summarization_using_LLMs/venv/lib/python3.10/site-packages/transformers/training_args.py", line 1654, in __post_init__
+    if self.save_strategy == SaveStrategy.STEPS and self.save_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2025-02-23 15:13:11,951: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:13:12,141: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:13:12,142: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:13:12,142: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:13:12,143: INFO: common: created directory at: artifacts]
+[2025-02-23 15:13:12,143: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:13:12,143: INFO: data_ingestion: File already exits]
+[2025-02-23 15:13:12,247: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:13:12,247: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:13:12,248: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:13:12,248: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:13:12,248: INFO: common: created directory at: artifacts]
+[2025-02-23 15:13:12,248: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:13:12,991: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:13:12,991: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:13:12,992: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:13:12,993: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:13:12,993: INFO: common: created directory at: artifacts]
+[2025-02-23 15:13:12,993: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:13:36,467: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:13:36,657: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:13:36,658: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:13:36,658: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:13:36,658: INFO: common: created directory at: artifacts]
+[2025-02-23 15:13:36,658: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:13:36,658: INFO: data_ingestion: File already exits]
+[2025-02-23 15:13:36,761: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:13:36,762: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:13:36,762: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:13:36,763: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:13:36,763: INFO: common: created directory at: artifacts]
+[2025-02-23 15:13:36,763: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:13:37,477: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:13:37,478: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:13:37,479: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:13:37,480: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:13:37,480: INFO: common: created directory at: artifacts]
+[2025-02-23 15:13:37,480: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:14:14,168: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:14:14,355: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:14:14,356: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:14:14,356: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:14:14,356: INFO: common: created directory at: artifacts]
+[2025-02-23 15:14:14,356: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:14:14,356: INFO: data_ingestion: File already exits]
+[2025-02-23 15:14:14,460: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:14:14,460: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:14:14,461: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:14:14,461: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:14:14,462: INFO: common: created directory at: artifacts]
+[2025-02-23 15:14:14,462: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:14:15,192: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:14:15,192: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:14:15,193: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:14:15,194: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:14:15,194: INFO: common: created directory at: artifacts]
+[2025-02-23 15:14:15,194: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:14:35,397: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:14:35,583: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:14:35,584: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:14:35,584: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:14:35,584: INFO: common: created directory at: artifacts]
+[2025-02-23 15:14:35,584: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:14:35,585: INFO: data_ingestion: File already exits]
+[2025-02-23 15:14:35,688: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:14:35,688: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:14:35,689: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:14:35,690: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:14:35,690: INFO: common: created directory at: artifacts]
+[2025-02-23 15:14:35,690: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:14:36,408: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:14:36,408: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:14:36,409: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:14:36,410: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:14:36,410: INFO: common: created directory at: artifacts]
+[2025-02-23 15:14:36,410: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:15:06,057: INFO: config: PyTorch version 2.6.0 available.]
+[2025-02-23 15:15:06,241: INFO: main: stage Data Ingestion stage initiated]
+[2025-02-23 15:15:06,242: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:15:06,243: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:15:06,243: INFO: common: created directory at: artifacts]
+[2025-02-23 15:15:06,243: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-23 15:15:06,243: INFO: data_ingestion: File already exits]
+[2025-02-23 15:15:06,347: INFO: main: Stage Data Ingestion stage Completed]
+[2025-02-23 15:15:06,347: INFO: main: stage Data Transformation stage initiated]
+[2025-02-23 15:15:06,348: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:15:06,349: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:15:06,349: INFO: common: created directory at: artifacts]
+[2025-02-23 15:15:06,349: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-23 15:15:07,065: INFO: main: Stage Data Transformation stage Completed]
+[2025-02-23 15:15:07,066: INFO: main: stage Model Trainer stage initiated]
+[2025-02-23 15:15:07,067: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-23 15:15:07,068: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-23 15:15:07,068: INFO: common: created directory at: artifacts]
+[2025-02-23 15:15:07,068: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-23 15:30:06,843: INFO: main: Stage Model Trainer stage Completed]
