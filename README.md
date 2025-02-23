@@ -21,7 +21,7 @@ This project is an end-to-end text summarization pipeline using **Large Language
 
 - **Pre-trained Models**: Utilizes state-of-the-art models like **Pegasus** from Hugging Face for text summarization.
 - **Customizable Pipeline**: Supports data ingestion, transformation, model training, and prediction.
-- **API Integration**: Provides RESTful APIs for training and batch prediction.
+- **API Integration**: Provides FAST APIs for training and batch prediction.
 - **Scalable**: Designed to handle large datasets and can be extended for other NLP tasks.
 
 ---
