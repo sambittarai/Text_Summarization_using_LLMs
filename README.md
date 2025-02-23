@@ -83,15 +83,15 @@ The project uses two configuration files:
 
 - Example config.yaml:
 
-   ```bash
+```bash
 	data_path: "artifacts/data"
 	model_ckpt: "google/pegasus-cnn_dailymail"
 	root_dir: "artifacts/model_trainer"
-   ```
+```
 
 - Example params.yaml:
 
-   ```bash
+```bash
 	TrainingArguments:
 		num_train_epochs: 10
 		warmup_steps: 500
@@ -102,7 +102,7 @@ The project uses two configuration files:
 		eval_steps: 500
 		save_steps: 1000000
 		gradient_accumulation_steps: 16
-  ```
+```
 
 ## **API Endpoints**
 
@@ -114,9 +114,9 @@ The project uses two configuration files:
 
 - **Example:**
 
-   ```bash
-curl -X POST http://localhost:5000/train
-   ```
+```bash
+	curl -X POST http://localhost:5000/train
+```
 
 ### Prediction API
 
@@ -126,9 +126,9 @@ curl -X POST http://localhost:5000/train
 
 - **Example:**
 
-   ```bash
-curl -X POST http://localhost:5000/predict -H "Content-Type: application/json" -d '{"text": "Your input text here"}'
-   ```
+```bash
+	curl -X POST http://localhost:5000/predict -H "Content-Type: application/json" -d '{"text": "Your input text here"}'
+```
 
 ## **Contributing**
 
