@@ -3,6 +3,19 @@
 This project is an end-to-end text summarization pipeline using **Large Language Models (LLMs)** and the **Hugging Face Transformers library**. It provides a streamlined workflow for training and deploying summarization models, with support for custom datasets and configurations.
 
 ---
+## **Table of Contents**
+- [Key Features](#key-features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Workflow Overview](#workflow-overview)
+- [Dataset and Model](#dataset-and-model)
+- [Configuration](#configuration)
+- [API Endpoints](#api-endpoints)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+  
+---
 
 ## **Key Features**
 
