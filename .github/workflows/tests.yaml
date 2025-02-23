@@ -24,3 +24,6 @@ jobs:
       - name: Run data transformation tests
         run: |
           pytest tests/test_data_transformation.py
+      - name: Run model trainer tests
+        run: |
+          pytest tests/test_model_trainer.py
