@@ -20,8 +20,8 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/text-summarizer.git
-   cd text-summarizer
+   git clone https://github.com/sambittarai/Text_Summarization_using_LLMs.git
+   cd Text_Summarization_using_LLMs
    ```
 
 2. Install the required dependencies:
@@ -130,3 +130,19 @@ curl -X POST http://localhost:5000/train
 curl -X POST http://localhost:5000/predict -H "Content-Type: application/json" -d '{"text": "Your input text here"}'
    ```
 
+## **Contributing**
+
+Contributions are welcome! If you'd like to contribute, please follow these steps:
+
+- Fork the repository.
+- Create a new branch for your feature or bugfix.
+- Submit a pull request with a detailed description of your changes.
+
+## **License**
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## **Acknowledgments**
+
+- Hugging Face for providing the Pegasus model (https://huggingface.co/google/pegasus-cnn_dailymail) and dataset (https://huggingface.co/datasets/Samsung/samsum).
+- The open-source community for their invaluable contributions to NLP and machine learning.
