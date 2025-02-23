@@ -84,24 +84,24 @@ The project uses two configuration files:
 - Example config.yaml:
 
    ```bash
-data_path: "artifacts/data"
-model_ckpt: "google/pegasus-cnn_dailymail"
-root_dir: "artifacts/model_trainer"
+	data_path: "artifacts/data"
+	model_ckpt: "google/pegasus-cnn_dailymail"
+	root_dir: "artifacts/model_trainer"
    ```
 
 - Example params.yaml:
 
    ```bash
-TrainingArguments:
-  num_train_epochs: 10
-  warmup_steps: 500
-  per_device_train_batch_size: 1
-  weight_decay: 0.01
-  logging_steps: 10
-  evaluation_strategy: steps
-  eval_steps: 500
-  save_steps: 1000000
-  gradient_accumulation_steps: 16
+	TrainingArguments:
+		num_train_epochs: 10
+		warmup_steps: 500
+		per_device_train_batch_size: 1
+		weight_decay: 0.01
+		logging_steps: 10
+		evaluation_strategy: steps
+		eval_steps: 500
+		save_steps: 1000000
+		gradient_accumulation_steps: 16
   ```
 
 ## **API Endpoints**
